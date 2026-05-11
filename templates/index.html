@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>SpamShield AI</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img
+    src="{{ url_for('static', filename='cyber.png') }}"
+    class="top-image"
+    alt="Cyber Security"
+    /> 
+
+        <h1>SpamShield AI</h1>
+
+        <p>
+            Detect whether a message is spam or safe using AI.
+        </p>
+
+<textarea
+    id="message"
+    placeholder="Paste a message here and let SpamShield AI analyze it..."
+></textarea>
+
+<div class="example-buttons">
+    <button onclick="useSpamExample()">Try Spam Example</button>
+    <button onclick="useSafeExample()">Try Safe Example</button>
+</div>
+
+<button class="detect-btn" onclick="detectSpam()">
+    Analyze Message
+</button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
