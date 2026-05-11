@@ -25,6 +25,9 @@ SpamShield AI is a cybersecurity-inspired AI web application that detects whethe
 - CSS
 - JavaScript
 
+Dataset: [Dataset Source](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+
+
 ---
 
 ## 📚 AI Concepts Used
