@@ -43,8 +43,6 @@ pip install flask scikit-learn pandas
 python train_model.py
 python app.py```
 
-## 🚀 How to Run
-
 ```bash
 pip install flask scikit-learn pandas
 python train_model.py
